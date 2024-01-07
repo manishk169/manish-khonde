@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Manish Khonde</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-4">About Me</h2>
+          <p>
+Hi I am Manish, as a passionate IT student, I am driven by an insatiable curiosity for technology and a relentless pursuit of knowledge. 
+My portfolio is a testament to my dedication and proficiency in various facets of information technology. 
+Through a combination of academic pursuits and hands-on experience, I have honed my skills in programming languages, system analysis, cybersecurity, and network administration.
+ My projects showcase not only technical expertise but also creative problem-solving and innovation. I thrive in dynamic environments, adapting swiftly to emerging technologies and utilizing them to craft effective solutions. With a commitment to continuous learning and a fervor 
+for staying at the forefront of technological advancements, I aspire to make meaningful contributions to the ever-evolving landscape of IT.</p>
+        </div>
+        <div class="col-lg-6">
+          <!-- You can add an image here -->
+          <img src="profile.jpg" alt="Your Image" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Programming Languages</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills here -->
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Frameworks</h4>
+          <ul>
+            <li>Bootstrap</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <!-- Add more skills here -->
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Tools</h4>
+          <ul>
+            <li>Git</li>
+            <li>Visual Studio Code</li>
+            <li>Adobe Photoshop</li>
+            <!-- Add more skills here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+   <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2024 Manish Khonde </p>
+      <!-- Contact Links with Icons -->
+      <div class="social-icons">
+        <a href="https://github.com/manishk169" target="_blank" class="social-icon">Github<i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/manish-khonde" target="_blank" class="social-icon">LinkedIn<i class="fab fa-linkedin"></i></a>
+        <!-- Add other social media links with icons -->
+        <!-- Example: <a href="https://twitter.com/yourusername" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> -->
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
